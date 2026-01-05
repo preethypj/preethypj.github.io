@@ -7,6 +7,7 @@ body {
     color: #222;
 }
 
+/* Header */
 header {
     text-align: center;
     margin-bottom: 40px;
@@ -16,11 +17,13 @@ header h1 {
     margin-bottom: 5px;
 }
 
+/* Sections */
 section {
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
 
+/* Headings */
 h2 {
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 5px;
@@ -30,6 +33,14 @@ h3 {
     margin-top: 20px;
 }
 
+/* Professional project label */
+h3 span {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Lists */
 ul {
     padding-left: 20px;
 }
@@ -38,6 +49,7 @@ li {
     margin-bottom: 6px;
 }
 
+/* Links */
 a {
     color: #0366d6;
     text-decoration: none;
