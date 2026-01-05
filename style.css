@@ -1,3 +1,4 @@
+/* Base layout */
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
@@ -27,6 +28,7 @@ section {
 h2 {
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 h3 {
@@ -57,4 +59,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Resume download emphasis */
+section a[download] {
+    font-weight: bold;
+}
+
+/* Contact section emphasis */
+section:last-of-type a {
+    font-weight: 500;
 }
